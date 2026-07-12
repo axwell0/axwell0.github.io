@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://axwell0.github.io/",
-    title: "Your Name",
+    title: "Mahdi Messai",
     description: "Personal site, CV, and articles.",
-    author: "Your Name",
+    author: "Mahdi Messai",
     profile: "https://axwell0.github.io/",
     ogImage: "default-og.jpg",
     lang: "en",
