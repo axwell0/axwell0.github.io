@@ -2,10 +2,7 @@
 title: "About"
 description: "About me, my work, and how to reach me."
 ---
-
-I'm a software engineer. This is a placeholder CV — edit
-`src/content/pages/about.md` to make it yours. Add a short paragraph here about
-who you are, what you work on, and what you care about.
+// tentative
 
 ## Experience
 
