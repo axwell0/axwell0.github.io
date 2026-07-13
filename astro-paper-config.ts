@@ -2,11 +2,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://axwell0.github.io/",
+    url: "https://mahdimessai.github.io/",
     title: "Mahdi Messai",
     description: "Personal site, CV, and articles.",
     author: "Mahdi Messai",
-    profile: "https://axwell0.github.io/",
+    profile: "https://mahdimessai.github.io/",
     ogImage: "default-og.jpg",
     lang: "en",
     timezone: "UTC",
@@ -28,7 +28,7 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/axwell0" },
+    { name: "github",   url: "https://github.com/mahdimessai" },
     { name: "x",        url: "https://x.com/username" },
     { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
     { name: "mail",     url: "mailto:you@example.com" },
