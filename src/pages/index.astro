@@ -64,19 +64,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
             <span class="sr-only">RSS Feed</span>
           </a>
         </div>
-        <p class="mt-2">
-          Software engineer. I write about what I build. This is a short
-          about-me — replace it with your own tagline in
-          <code class="bg-muted/50 rounded px-1">src/pages/index.astro</code>,
-          and see the full CV on the{" "}
-          <LinkButton
-            class="hover:text-accent underline decoration-dashed underline-offset-4"
-            href={getRelativeLocaleUrl(locale, "about")}
-          >
-            About
-          </LinkButton>{" "}
-          page.
-        </p>
+        <p class="mt-2">//tentative</p>
         {
           socials.length > 0 && (
             <div class="mt-4 flex max-sm:flex-col sm:items-center">
@@ -103,7 +91,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
             {t.home.featured}
           </h2>
           <ul>
-            {featuredPosts.map(data => (
+            {featuredPosts.map((data) => (
               <Card variant="h3" {...data} />
             ))}
           </ul>
@@ -118,7 +106,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
             {t.home.recentPosts}
           </h2>
           <ul>
-            {recentPosts.slice(0, postsConfig.perIndex).map(data => (
+            {recentPosts.slice(0, postsConfig.perIndex).map((data) => (
               <Card variant="h3" {...data} />
             ))}
           </ul>
