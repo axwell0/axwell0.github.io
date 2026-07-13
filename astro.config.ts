@@ -17,7 +17,7 @@ import {
   transformerNotationWordHighlight,
 } from "@shikijs/transformers";
 import { transformerFileName } from "./src/utils/transformers/fileName";
-import config from "./blog-config";
+import config from "./astro-paper-config";
 
 export default defineConfig({
   site: config.site.url,
